@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Contaner.DEPARTMENT>
+
+@{
+    ViewBag.Title = "Index";
+}
+<h1>List of the Departments avilable</h1>
+<hr />
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.ActionLink(item.DEPTNAME, "EmpIndex", "Employee", new { id = item.ID },null)</td>
+        </tr>
+    }
+</table>
+
+
+
+
+

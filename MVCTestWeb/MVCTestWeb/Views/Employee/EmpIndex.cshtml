@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Contaner.EMPLOYEE>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table class="table" border="1">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NAME)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+          @Html.ActionLink(item.NAME, "EmpDetails","Employee",new { id = item.ID },null) 
+        </td>
+    </tr>
+}
+
+</table>
+@Html.ActionLink("Back To Privious View","DeptIndex","Department")

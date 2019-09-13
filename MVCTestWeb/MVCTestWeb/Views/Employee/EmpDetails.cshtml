@@ -1,0 +1,50 @@
+﻿@model Contaner.EMPLOYEE
+
+@{
+    ViewBag.Title = "EmpDetails";
+}
+
+<h2>EmpDetails</h2>
+
+<div>
+    <h4>EMPLOYEE</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NAME)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NAME)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CITY)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CITY)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AGE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AGE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DEPTID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DEPTID)
+        </dd>
+
+    </dl>
+</div>
+@Html.ActionLink("Registration", "EmpCreate","Employee")
+<br/>
+@Html.ActionLink("Back To Privious View", "EmpIndex",new {id=Model.DEPTID })
+

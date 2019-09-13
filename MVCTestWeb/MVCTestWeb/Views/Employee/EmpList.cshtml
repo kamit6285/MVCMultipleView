@@ -1,0 +1,98 @@
+﻿@model MVCTestWeb.Models.EmployeeFinal
+
+@{
+    ViewBag.Title = "EmpList";
+}
+<script src="~/Scripts/Demo.js"></script>
+<h2>EmpList</h2>
+@Html.Partial("_Create");
+<hr />
+<table class="table" id="empList">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.eMPLOYEE.NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.eMPLOYEE.CITY)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.eMPLOYEE.AGE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.eMPLOYEE.DEPTID)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.eMPLOYEELIST) {
+    <tr>
+        <td style="display:none">
+            @item.ID
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CITY)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AGE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DEPTID)
+        </td>
+        <td>
+            <button type="button" class="btn btn-info btn-sm" onclick="EditEmployee(@item.ID)">Edit</button>|
+            <button type="button" class="btn btn-info btn-sm" onclick="DeleteEmployee(@item.ID)">Delete</button>
+            @*@Html.ActionLink("Edit", "EmpEdit", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "EmpDelete", new { id=item.ID })*@
+        </td>
+    </tr>
+}
+
+</table>
+
+
+
+<!-- Edit Modal -->
+<div class="modal fade" id="EditModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Edit Employee Details</h4>
+            </div>
+            <div class="modal-body">
+                @Html.Partial("_EmpEdit")
+            </div>
+            <div class="modal-footer">
+                <input type="submit" value="Update" class="btn btn-info btn-sm" />
+                <button type="button" class="btn btn-info btn-sm" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Edit Modal -->
+<div class="modal fade" id="DeleteModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Delete the Employee Details</h4>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the modal.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
