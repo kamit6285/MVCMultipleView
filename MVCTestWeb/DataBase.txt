@@ -60,3 +60,73 @@ GO
 
 
 ==============================================================
+USE [MVCProject]
+GO
+
+GO
+SET ANSI_PADDING OFF
+GO
+SET IDENTITY_INSERT [dbo].[DEPARTMENT] ON 
+
+GO
+INSERT [dbo].[DEPARTMENT] ([ID], [DEPTNAME]) VALUES (1, N'HR')
+GO
+INSERT [dbo].[DEPARTMENT] ([ID], [DEPTNAME]) VALUES (2, N'IT')
+GO
+INSERT [dbo].[DEPARTMENT] ([ID], [DEPTNAME]) VALUES (3, N'CS')
+GO
+SET IDENTITY_INSERT [dbo].[DEPARTMENT] OFF
+GO
+SET IDENTITY_INSERT [dbo].[EMPLOYEE] ON 
+
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (8, N'Amit1', N'PATNA1', 23, 1)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (9, N'ASISH', N'BBSR', 30, 3)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (10, N'ANAND', N'PATNA1', 22, 2)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (11, N'ANSHU', N'PATNA2', 37, 2)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (12, N'AJIT', N'PATNA3', 40, 1)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (13, N'ABC', N'PATNA4', 42, 3)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (14, N'BISWA', N'PATNA5', 27, 2)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (15, N'tgt', N'rr', 23, 2)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (16, N'as', N'asf', 23, 1)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (17, N'Asish', N'saf', 12, 2)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (19, N'nuddfu', N'TGT', 33, 3)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (20, N'ZZZ', N'ZZ', 1, 1)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (21, N'qwe', N'2qr', 32, 1)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (22, N'juuh', N'aaa', 22, 3)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (24, N'ew', N'erw', 23, 2)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (25, N'wee', N'tr', 43, 3)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (27, N'ad', N'aaa', 122, 2)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (28, N'asdf', N'trt', 32, 1)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (29, N'asdf', N'as', 12, 2)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (30, N'sd', N'dff', 2, 3)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (31, N'errer', N'wewe', 43, 1)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (32, N'qwqw', N'qq', 11, 3)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (33, N'qwqw', N'sasa', 32, 2)
+GO
+INSERT [dbo].[EMPLOYEE] ([ID], [NAME], [CITY], [AGE], [DEPTID]) VALUES (34, NULL, NULL, NULL, NULL)
+GO
+SET IDENTITY_INSERT [dbo].[EMPLOYEE] OFF
+GO

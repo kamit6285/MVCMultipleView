@@ -1,40 +1,35 @@
 ﻿
 @model MVCTestWeb.Models.EmployeeFinal
-
     <div class="form-horizontal">
-
+        <input type="hidden" id="editID" />
         <div class="form-group">
             @Html.LabelFor(model => model.eMPLOYEE.NAME, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <input type="text" class="form-control" id="editName" />
-                @Html.ValidationMessageFor(model => model.eMPLOYEE.NAME, "", new { @class = "text-danger" })
+                <input type="text" id="editName"/>
             </div>
         </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.eMPLOYEE.CITY, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <input type="text" class="form-control" id="editCity" />
-                @Html.ValidationMessageFor(model => model.eMPLOYEE.CITY, "", new { @class = "text-danger" })
+                <input type="text" id="editCity"/>
             </div>
         </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.eMPLOYEE.AGE, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <input type="text" class="form-control" id="editAge" />
-                @Html.ValidationMessageFor(model => model.eMPLOYEE.AGE, "", new { @class = "text-danger" })
+                <input type="text" id="editAge"/>
             </div>
         </div>
 
         <div class="form-group">
             @Html.LabelFor(model => model.eMPLOYEE.DEPTID, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                <input type="text" class="form-control" id="editDeptID" />
-                @Html.ValidationMessageFor(model => model.eMPLOYEE.DEPTID, "", new { @class = "text-danger" })
+                <input type="text" id="editDeptID"/>
             </div>
         </div>
-        </div>
+</div>
 
         
 

@@ -8,3 +8,13 @@ C:\Users\M1041933\Documents\Visual Studio 2015\Projects\MVCTestWeb\Contaner\bin\
 C:\Users\M1041933\Documents\Visual Studio 2015\Projects\MVCTestWeb\Contaner\obj\Debug\Contaner.csprojResolveAssemblyReference.cache
 C:\Users\M1041933\Documents\Visual Studio 2015\Projects\MVCTestWeb\Contaner\obj\Debug\Contaner.dll
 C:\Users\M1041933\Documents\Visual Studio 2015\Projects\MVCTestWeb\Contaner\obj\Debug\Contaner.pdb
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\bin\Debug\Contaner.dll.config
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\bin\Debug\Contaner.dll
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\bin\Debug\Contaner.pdb
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\bin\Debug\EntityFramework.dll
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\bin\Debug\EntityFramework.xml
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\obj\Debug\Contaner.csprojResolveAssemblyReference.cache
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\obj\Debug\Contaner.dll
+C:\Users\M1034228\Documents\Visual Studio 2015\MVCMultipleView\MVCTestWeb\Contaner\obj\Debug\Contaner.pdb

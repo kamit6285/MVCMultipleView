@@ -87,7 +87,7 @@ namespace MVCTestWeb.Controllers
                     emp1.AGE = emp.eMPLOYEE.AGE;
                     db.SaveChanges();
                 }
-                return RedirectToAction("EmpList");
+                return RedirectToAction("EmpList","Employee");
             }
             catch
             {

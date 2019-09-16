@@ -280,6 +280,7 @@
     <Content Include="Views\Employee\EmpEdit.cshtml" />
     <Content Include="Views\Employee\EmpDelete.cshtml" />
     <Content Include="Views\Shared\_EmpEdit.cshtml" />
+    <Content Include="Views\Shared\_EmpDelete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -297,6 +298,9 @@
       <Project>{16c12957-5f0d-4771-b7ce-c068482510ee}</Project>
       <Name>Contaner</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

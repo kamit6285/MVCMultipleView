@@ -1,0 +1,40 @@
+﻿@model MVCTestWeb.Models.EmployeeFinal
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            <input type="hidden" id="deleteID" />
+        </dt>
+        <dt>
+            @Html.DisplayNameFor(model => model.eMPLOYEE.NAME)
+        </dt>
+
+        <dd>
+            <span id="deleteName"></span>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.eMPLOYEE.CITY)
+        </dt>
+
+        <dd>
+            <span id="deleteCity"></span>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.eMPLOYEE.AGE)
+        </dt>
+
+        <dd>
+            <span id="deleteAge"></span>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.eMPLOYEE.DEPTID)
+        </dt>
+
+        <dd>
+            <span id="deleteDeptId"></span>
+        </dd>
+
+    </dl>
+</div>
